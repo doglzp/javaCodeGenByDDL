@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 
 @Api(tags = "${entityTemplate.comment!''}")
 @RestController
-@RequestMapping("/${entityTemplate.snakeCaseName}")
+@RequestMapping("/${entityTemplate.camelCaseName}")
 @Slf4j
 public class ${entityTemplate.className}Controller {
 
