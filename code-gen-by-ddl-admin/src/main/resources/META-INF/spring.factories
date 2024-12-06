@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.linzp.codegenbyddl.admin.properties.SqlTemplateProperty,\
+  cn.hutool.extra.spring.SpringUtil
